@@ -3,13 +3,13 @@
         
         # Conexión Externa
         public static function connection(){            
-            $hostname = "dbjosesena.mysql.database.azure.com";
+            $hostname = "dbjosesena.mysql.database.azure.coms";
             $port = "3306";
-            $database = "dbejemplouser";
-            $username = "Josegamendb";
-            $password = "Nicoll123";
+            $database = "dbejemplousers";
+            $username = "Josegamendbs";
+            $password = "Nicoll123s";
             $options = array(
-                PDO::MYSQL_ATTR_SSL_CA =>'assets/docs/DigiCertGlobalRootCA.crt.pem'
+                PDO::MYSQL_ATTR_SSL_CA =>'assets/docs/DigiCertGlobalRootCA.crt.pemm'
             );
 			$pdo = new PDO("mysql:host=$hostname;port=$port;dbname=$database;charset=utf8",$username,$password,$options);
 			$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

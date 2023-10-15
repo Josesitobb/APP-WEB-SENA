@@ -11,4 +11,5 @@
         $action = isset($_REQUEST['a']) ? $_REQUEST['a'] : 'main';
         call_user_func(array($controller, $action));
     }
+    echo"Hola mundo";
 ?>
